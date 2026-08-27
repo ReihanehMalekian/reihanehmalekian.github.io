@@ -3,8 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Academic website of Reihaneh Malekian, PhD Candidate in Statistics at Columbia University." />
-  <title>Reihaneh Malekian</title>
+  <meta name="description" content="Reihaneh Malekian is a PhD Candidate in Statistics at Columbia University working in probability, high-dimensional statistics, large deviations, random graphs and hypergraphs, and Gibbs measures." />
+  <link rel="canonical" href="https://reihaneh.org/" />
+  <title>Reihaneh Malekian | Statistics, Columbia University</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Reihaneh Malekian",
+    "url": "https://reihaneh.org/",
+    "jobTitle": "PhD Candidate in Statistics",
+    "affiliation": {"@type": "CollegeOrUniversity", "name": "Columbia University"},
+    "email": "mailto:rm3942@columbia.edu",
+    "knowsAbout": ["Probability", "High-dimensional statistics", "Large deviations", "Random graphs", "Random hypergraphs", "Gibbs measures", "Empirical Bayes", "Statistical inference for dependent data"]
+  }
+  </script>
   <style>
     :root {
       --text: #1f2933;
@@ -118,18 +131,14 @@
       color: white;
     }
 
-    .portrait-placeholder {
-      width: 150px;
-      height: 150px;
+    .portrait {
+      width: 180px;
+      height: 180px;
       border-radius: 50%;
-      background: var(--soft);
+      object-fit: cover;
       border: 1px solid var(--line);
-      display: grid;
-      place-items: center;
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 2rem;
-      color: var(--muted);
       flex-shrink: 0;
+      box-shadow: 0 3px 14px rgba(31, 41, 51, 0.08);
     }
 
     section {
@@ -207,10 +216,10 @@
         grid-template-columns: 1fr;
         padding-top: 48px;
       }
-      .portrait-placeholder {
+      .portrait {
         order: -1;
-        width: 110px;
-        height: 110px;
+        width: 125px;
+        height: 125px;
       }
       .two-col { grid-template-columns: 1fr; }
     }
@@ -225,8 +234,7 @@
         <div class="nav-links">
           <a href="#research">Research</a>
           <a href="#papers">Papers</a>
-          <a href="#talks">Talks</a>
-          <a href="#teaching">Teaching</a>
+          <a href="cv.pdf" target="_blank" rel="noopener">CV</a>
           <a href="#contact">Contact</a>
         </div>
       </nav>
@@ -240,126 +248,53 @@
         <div class="subtitle">PhD Candidate in Statistics · Columbia University</div>
 
         <p class="intro">
-          I am a PhD candidate in Statistics at Columbia University. My research is broadly in
-          probability and mathematical statistics, with particular interests in large deviations,
-          Gibbs measures, random graphs and hypergraphs, graph limits, and fluctuation theory.
-        </p>
-
-        <p class="intro">
-          I am especially interested in probabilistic methods for high-dimensional statistical
-          models and in understanding the asymptotic behavior of interacting systems.
+          I am a PhD candidate in Statistics at Columbia University, where I am fortunate to be advised by
+          Sumit Mukherjee. Before coming to Columbia, I received my B.Sc. and M.Sc. in Mathematics from
+          Sharif University of Technology in Iran. My research interests include probability and
+          high-dimensional statistics, large deviations, random graphs and hypergraphs, Gibbs measures
+          and interacting systems, empirical Bayes, and statistical inference for dependent data.
         </p>
 
         <div class="quick-links">
           <a class="button primary" href="#papers">Papers</a>
-          <a class="button" href="cv.pdf">CV</a>
+          <a class="button" href="cv.pdf" target="_blank" rel="noopener">CV</a>
+          <a class="button" href="https://stat.columbia.edu/department-directory/current-phd-students/name/reihaneh-malekian/" target="_blank" rel="noopener">Columbia Profile</a>
           <a class="button" href="#contact">Contact</a>
         </div>
       </div>
 
-      <!-- Replace this circle with an image if you want:
-      <img src="photo.jpg" alt="Reihaneh Malekian" style="width:150px;height:150px;border-radius:50%;object-fit:cover;">
-      -->
-      <div class="portrait-placeholder">RM</div>
+      <img class="portrait" src="photo.jpg" alt="Reihaneh Malekian" />
     </div>
 
     <section id="research">
       <h2>Research</h2>
       <p>
-        My work lies at the intersection of probability, statistical mechanics, and mathematical
-        statistics. Current themes include:
+        Probability and high-dimensional statistics; large deviations; random graphs and hypergraphs;
+        Gibbs measures and interacting systems; empirical Bayes; statistical inference for dependent data.
       </p>
-      <ul>
-        <li>large deviations and variational principles for Gibbs measures;</li>
-        <li>random graphs, hypergraphs, graphons, and hypergraphons;</li>
-        <li>Potts and Ising-type models and high-temperature fluctuations;</li>
-        <li>asymptotic inference for dependent and high-dimensional models.</li>
-      </ul>
     </section>
 
     <section id="papers">
       <h2>Papers</h2>
 
-      <!-- Replace the placeholders below with your exact titles, coauthors, and links. -->
-
       <div class="paper">
-        <div class="paper-title">[Title of your large deviations paper]</div>
-        <div class="paper-meta">with [coauthors] · Preprint / submitted</div>
-        <div>
-          Large deviations and variational asymptotics for tensor-weighted functionals and Gibbs
-          measures, with applications to random graph and hypergraph models.
-        </div>
-        <div class="paper-links">
-          <a href="#">arXiv</a> · <a href="#">PDF</a>
-        </div>
+        <div class="paper-title">LDP for Tensor Forms</div>
+        <div class="paper-meta">with Sohom Bhattacharya, Nabarun Deb, and Sumit Mukherjee · In preparation</div>
       </div>
 
       <div class="paper">
-        <div class="paper-title">[Title of your fluctuations paper]</div>
-        <div class="paper-meta">with [coauthors] · Preprint</div>
-        <div>
-          Fluctuation results and high-temperature central limit theorems for Potts-type models.
-        </div>
-        <div class="paper-links">
-          <a href="#">arXiv</a> · <a href="#">PDF</a>
-        </div>
+        <div class="paper-title">Fluctuation in Mean Field Potts Model</div>
+        <div class="paper-meta">with Sumit Mukherjee · In preparation</div>
       </div>
 
       <div class="paper">
-        <div class="paper-title">[Title of your IEEE Transactions on Information Theory paper]</div>
-        <div class="paper-meta">with [coauthors] · IEEE Transactions on Information Theory</div>
-        <div class="paper-links">
-          <a href="#">Journal</a> · <a href="#">PDF</a>
-        </div>
+        <div class="paper-title"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11029299" target="_blank" rel="noopener">Is Speckle Noise More Challenging to Mitigate Than Additive Noise?</a></div>
+        <div class="paper-meta">with Hao Xing and Arian Maleki · IEEE Transactions on Information Theory, 71(8):6353–6372, 2025</div>
       </div>
 
       <div class="paper">
-        <div class="paper-title">[Title of your short arXiv note]</div>
-        <div class="paper-meta">with Aditya Ramdas · Preprint</div>
-        <div class="paper-links">
-          <a href="#">arXiv</a> · <a href="#">PDF</a>
-        </div>
-      </div>
-
-      <div class="note">
-        Tip: for the job market, put your strongest and newest papers first. You do not need a
-        Google Scholar profile here; direct arXiv and journal links are enough.
-      </div>
-    </section>
-
-    <section id="talks">
-      <h2>Talks</h2>
-
-      <div class="item">
-        <h3>[Talk title]</h3>
-        <div class="muted">[Seminar / conference], [Institution], [Month Year]</div>
-      </div>
-
-      <div class="item">
-        <h3>Monochromatic Subgraph Counts in Sparse Erdős–Rényi Random Graphs</h3>
-        <div class="muted">Short talk · July 2026</div>
-      </div>
-
-      <div class="note">
-        Keep this section selective. Three to six recent or especially relevant talks are enough.
-      </div>
-    </section>
-
-    <section id="teaching">
-      <h2>Teaching</h2>
-      <div class="two-col">
-        <div>
-          <h3>Columbia University</h3>
-          <p class="muted">
-            Add courses for which you were instructor, teaching assistant, or discussion-section
-            leader.
-          </p>
-        </div>
-
-        <div>
-          <h3>Teaching Observation Fellow</h3>
-          <p class="muted">Columbia University, 2026–27</p>
-        </div>
+        <div class="paper-title"><a href="https://arxiv.org/abs/2408.05998" target="_blank" rel="noopener">Matrix Concentration: Order versus Anti-order</a></div>
+        <div class="paper-meta">with Aaditya Ramdas · Preprint</div>
       </div>
     </section>
 
@@ -370,12 +305,9 @@
         Columbia University<br />
         New York, NY
       </p>
-
       <p>
-        Email: <a href="mailto:YOUR_EMAIL@columbia.edu">YOUR_EMAIL@columbia.edu</a><br />
-        <!-- Add links below if desired -->
-        <a href="#">arXiv</a> ·
-        <a href="#">Columbia profile</a>
+        Email: <a href="mailto:rm3942@columbia.edu">rm3942@columbia.edu</a><br />
+        <a href="https://stat.columbia.edu/department-directory/current-phd-students/name/reihaneh-malekian/" target="_blank" rel="noopener">Columbia Statistics profile</a>
       </p>
     </section>
   </main>
